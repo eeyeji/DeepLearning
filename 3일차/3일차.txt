@@ -1,0 +1,19 @@
+시계열분석
+- 원하는 데이터를 찾기 위해서 시간이 키워드가 되어 쉽게 찾을 수 있다.
+- https://jumoslifenstudy.tistory.com/57
+- 
+
+Eval() 
+- eval() 함수를 사용하여 텍스트 문자열 또는 숫자 식 결과를 계산할 수 있다
+- https://support.microsoft.com/ko-kr/office/eval-%ED%95%A8%EC%88%98-8c4a1b10-85ba-40db-b0c8-5290da4d4166
+
+literal
+- https://velog.io/@pjeeyoung/%EB%A6%AC%ED%84%B0%EB%9F%B4
+
+seabon / matplot
+- seabon은 통계형 데이터를 그릴때, 특히 비교통계
+- 기본적인 시각화 기능은 Matplotlib 패키지에 의존하며 통계 기능은 Statsmodels 패키지에 의존한다.
+- https://datascienceschool.net/01%20python/05.04%20%EC%8B%9C%EB%B3%B8%EC%9D%84%20%EC%82%AC%EC%9A%A9%ED%95%9C%20%EB%8D%B0%EC%9D%B4%ED%84%B0%20%EB%B6%84%ED%8F%AC%20%EC%8B%9C%EA%B0%81%ED%99%94.html
+
+resample()
+- (W)는 Week기준
