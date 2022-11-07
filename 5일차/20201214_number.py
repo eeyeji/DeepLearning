@@ -5,12 +5,12 @@ import cv2 as cv
 
 # original_image = cv.imread('C:\\Users\\honesty\\Desktop\\test2.jpg', cv.IMREAD_COLOR)
 # original_image1 = cv.imread('C:\\Users\\honesty\\Desktop\\test1.jpg', cv.IMREAD_GRAYSCALE)
-original_image1 = cv.imread('C://Users/user/Study/202211/20221104/pingu.jpg', cv.IMREAD_GRAYSCALE)
-original_image2 = cv.imread('C:/Users/user/Study/202211/20221104/shin.jpg', cv.IMREAD_GRAYSCALE)
+original_image1 = cv.imread('C:/develops/DeepLearning/5일차/짱구.png', cv.IMREAD_GRAYSCALE)
+original_image2 = cv.imread('C:/develops/DeepLearning/5일차/짱구.png', cv.IMREAD_GRAYSCALE)
 
 #Morphology
 #blur
-blur_image = cv.blur(original_image1, (5, 5), anchor=(-1, -1), borderType=cv.BORDER_DEFAULT)
+blur_image = cv.blur(original_image1, (5, 5), anchor=(-1, -1), borderType=cv.BORDER_DEFAULpT)
 
 #sobel
 sobel = cv.Sobel(blur_image, cv.CV_8UC1, 1, 0, borderType=cv.BORDER_DEFAULT)

@@ -5,8 +5,8 @@ import numpy as np
 # Read image with option
 
 # original_image = cv.imread('C:\\Users\\honesty\\Desktop\\test2.jpg', cv.IMREAD_COLOR)
-original_image = cv.imread('C://Users/user/Study/202211/20221104/pingu.jpg', cv.IMREAD_COLOR)
-gray_image = cv.imread('C://Users//honesty//Desktop//test2.jpg', cv.IMREAD_GRAYSCALE)
+original_image = cv.imread('C:/develops/DeepLearning/5일차/짱구.png', cv.IMREAD_COLOR)
+# gray_image = cv.imread('C://Users//honesty//Desktop//test2.jpg', cv.IMREAD_GRAYSCALE)
 
 #BGR 채널 분해 조립
 b, g, r = cv.split(original_image)
